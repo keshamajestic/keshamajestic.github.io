@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#dff3ff">
+  <title>https://keshamajestic</title>
+  <meta name="description" content="Kesha Majestic — личное пространство идей, эстетики и творчества">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Press+Start+2P&family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"><span></span></div>
+  <header class="header">
+    <a class="logo magnetic" href="#top" aria-label="Kesha Majestic, наверх"><span>k</span>esha</a>
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="#about" data-ru="Стиль" data-en="Style">Стиль</a>
+      <a href="#directions" data-ru="Направления" data-en="Directions">Направления</a>
+      <a href="#projects" data-ru="Проекты" data-en="Projects">Проекты</a>
+      <a href="#process" data-ru="Процесс" data-en="Process">Процесс</a>
+      <a href="#chat" data-ru="Чат" data-en="Chat">Чат</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-switch" aria-label="Выбор языка">
+        <button class="lang-btn active" type="button" data-lang="ru">RU</button>
+        <button class="lang-btn" type="button" data-lang="en">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="orb orb-blue" data-speed="-0.7"></div>
+      <div class="orb orb-yellow" data-speed="0.45"></div>
+      <p class="eyebrow reveal">creative mind · digital soul</p>
+      <h1 class="hero-title" aria-label="Kesha Majestic">
+        <span class="title-line"><span class="word reveal-word">kesha</span></span>
+        <span class="title-line majestic-line"><span class="spark">✦</span><span class="word reveal-word delay">majestic</span></span>
+      </h1>
+      <div class="hero-bottom reveal">
+        <p>создаю яркие впечатления<br>из простых идей</p>
+        <a class="scroll-link" href="#about"><span>scroll to explore</span><i>↓</i></a>
+      </div>
+      <div class="floating-pill pill-one">dream big</div>
+      <div class="floating-pill pill-two">stay curious ✦</div>
+    </section>
+
+    <section class="directions section" id="directions">
+      <div class="section-label reveal" data-ru="02 · Направления" data-en="02 · Directions">02 · Направления</div>
+      <div class="directions-head reveal"><h2 data-ru="Выбери свое<br><em>направление</em>" data-en="Choose your<br><em>creative direction</em>">Выбери свое<br><em>направление</em></h2><p data-ru="Интерактивные вкладки показывают основные направления моей разработки" data-en="Interactive tabs show the main directions of my development work">Интерактивные вкладки показывают основные направления моей разработки</p></div>
+      <div class="mood-tabs reveal" role="tablist" aria-label="Creative directions">
+        <button class="mood-tab active" role="tab" aria-selected="true" data-mood="dream">Frontend</button>
+        <button class="mood-tab" role="tab" aria-selected="false" data-mood="play">JavaScript</button>
+        <button class="mood-tab" role="tab" aria-selected="false" data-mood="magic">Motion</button>
+        <button class="mood-tab" role="tab" aria-selected="false" data-mood="motion" data-ru="Адаптивность" data-en="Responsive">Адаптивность</button>
+      </div>
+      <div class="mood-stage reveal" data-active="dream"><div class="mood-visual"><span class="pixel-spark">&lt;/&gt;</span><span class="mood-orbit"></span></div><div class="mood-copy"><span class="mood-index">01 / 04</span><h3>Живой frontend</h3><p>Семантичная верстка, понятная структура и аккуратный интерфейс</p></div></div>
+    </section>
+
+    <section class="marquee" aria-label="Направления">
+      <div class="marquee-track">
+        <span>design</span><i>✦</i><span>ideas</span><i>✦</i><span>motion</span><i>✦</i><span>magic</span><i>✦</i>
+        <span>design</span><i>✦</i><span>ideas</span><i>✦</i><span>motion</span><i>✦</i><span>magic</span><i>✦</i>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-label reveal">01 · обо мне</div>
+      <div class="about-grid">
+        <h2 class="reveal">Не просто сайт,<br><em>а рабочий код</em></h2>
+        <div class="about-copy reveal">
+          <p>Keshamajestic — frontend-разработчик, который превращает идеи в быстрые и живые интерфейсы</p>
+          <p class="muted">Создаю адаптивные сайты, пишу чистый JavaScript и добавляю анимации, которые помогают интерфейсу, а не мешают ему</p>
+        </div>
+      </div>
+      <div class="code-console reveal" aria-hidden="true"><div class="console-bar"><i></i><i></i><i></i><span>kesha@dev: ~/project</span></div><div class="console-code"><span><b>const</b> idea = <em>'majestic'</em>;</span><span><b>function</b> buildExperience() {</span><span>&nbsp;&nbsp;<b>return</b> design + code + motion;</span><span>}</span><span class="console-caret">npm run create_</span></div></div>
+      <div class="values">
+        <article class="value-card reveal tilt-card"><span>01</span><h3>Проектировать</h3><p>Продумываю структуру, логику и адаптивное поведение</p><div class="card-code code-braces">{ }</div><div class="code-lines"><i></i><i></i><i></i></div></article>
+        <article class="value-card yellow reveal tilt-card"><span>02</span><h3>Разрабатывать</h3><p>Собираю интерфейс на HTML, CSS и чистом JavaScript</p><div class="card-code code-tag">&lt;/&gt;</div><div class="code-lines"><i></i><i></i><i></i></div></article>
+        <article class="value-card reveal tilt-card"><span>03</span><h3>Оптимизировать</h3><p>Ускоряю загрузку, проверяю адаптивность и детали</p><div class="card-code code-binary">01</div><div class="code-lines"><i></i><i></i><i></i></div></article>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="section-label reveal">03 · Избранное</div>
+      <div class="projects-head reveal"><h2>made with<br><em>good energy</em></h2><p>небольшая коллекция мыслей,<br>образов и экспериментов</p></div>
+      <div class="project-list">
+        <a href="#contact" class="project reveal"><span class="project-num">01</span><span class="project-name">soft universe</span><span class="project-tag">visual story</span><span class="project-arrow">↗</span></a>
+        <a href="#contact" class="project reveal"><span class="project-num">02</span><span class="project-name">lemon mood</span><span class="project-tag">creative concept</span><span class="project-arrow">↗</span></a>
+        <a href="#contact" class="project reveal"><span class="project-num">03</span><span class="project-name">blue dreams</span><span class="project-tag">digital world</span><span class="project-arrow">↗</span></a>
+      </div>
+    </section>
+
+    <section class="process section" id="process">
+      <div class="section-label reveal" data-ru="04 · Процесс" data-en="04 · Process">04 · Процесс</div>
+      <h2 class="reveal" data-ru="Как Рождается<br><em>Majestic</em>" data-en="How Majestic<br><em>Comes Alive</em>">Как Рождается<br><em>Majestic</em></h2>
+      <div class="process-list"><article class="process-step reveal"><span>01</span><h3 data-ru="Почувствовать" data-en="Feel">Почувствовать</h3><p data-ru="Найти настроение и главную эмоцию идеи" data-en="Find the mood and the core emotion of an idea">Найти настроение и главную эмоцию идеи</p></article><article class="process-step reveal"><span>02</span><h3 data-ru="Представить" data-en="Imagine">Представить</h3><p data-ru="Собрать цвет, форму, ритм и характер" data-en="Bring together color, shape, rhythm and character">Собрать цвет, форму, ритм и характер</p></article><article class="process-step reveal"><span>03</span><h3 data-ru="Оживить" data-en="Animate">Оживить</h3><p data-ru="Добавить движение и маленькие сюрпризы" data-en="Add motion and delightful little surprises">Добавить движение и маленькие сюрпризы</p></article></div>
+    </section>
+
+    <section class="faq section" id="faq">
+      <div class="section-label reveal">05 · FAQ</div><h2 class="reveal" data-ru="Частые<br><em>Вопросы</em>" data-en="Frequently Asked<br><em>Questions</em>">Частые<br><em>Вопросы</em></h2>
+      <div class="faq-list reveal"><details open><summary data-ru="Что Такое Kesha Majestic" data-en="What Is Kesha Majestic">Что Такое Kesha Majestic</summary><p data-ru="Личное творческое пространство для красивых идей, экспериментов и вдохновения" data-en="A personal creative space for beautiful ideas, experiments and inspiration">Личное творческое пространство для красивых идей, экспериментов и вдохновения</p></details><details><summary data-ru="Почему Голубой И Желтый" data-en="Why Blue And Yellow">Почему Голубой И Желтый</summary><p data-ru="Голубой дает ощущение свободы, а желтый добавляет тепло и энергию" data-en="Blue brings a sense of freedom while yellow adds warmth and energy">Голубой дает ощущение свободы, а желтый добавляет тепло и энергию</p></details><details><summary data-ru="Что Здесь Можно Найти" data-en="What Can You Find Here">Что Здесь Можно Найти</summary><p data-ru="Визуальные истории, творческие эксперименты и новые цифровые миры" data-en="Visual stories, creative experiments and new digital worlds">Визуальные истории, творческие эксперименты и новые цифровые миры</p></details></div>
+    </section>
+
+    <section class="chat-section section" id="chat">
+      <div class="section-label reveal" data-ru="06 · Чат" data-en="06 · Chat">06 · Чат</div>
+      <div class="chat-layout">
+        <div class="chat-intro reveal">
+          <p class="eyebrow" data-ru="// Прямой канал" data-en="// Direct channel">// Прямой канал</p>
+          <h2 data-ru="Напиши<br><em>что-нибудь</em>" data-en="Write<br><em>something</em>">Напиши<br><em>что-нибудь</em></h2>
+          <p data-ru="Сообщение появится в переписке, а Kesha сразу ответит" data-en="Your message will appear in the conversation and Kesha will reply right away">Сообщение появится в переписке, а Kesha сразу ответит</p>
+        </div>
+        <div class="social-chat reveal" aria-label="Чат с Kesha">
+          <div class="chat-head"><div class="chat-avatar">K</div><div><strong>Kesha</strong><span data-ru="В сети" data-en="Online">В сети</span></div><i></i></div>
+          <div class="chat-messages" id="chatMessages" aria-live="polite">
+            <div class="message incoming"><span data-ru="Привет, напиши мне что-нибудь" data-en="Hi, write me something">Привет, напиши мне что-нибудь</span><time>now</time></div>
+          </div>
+          <div class="typing" id="typingIndicator" aria-hidden="true"><i></i><i></i><i></i></div>
+          <div class="chat-praise" id="chatPraise" role="status" data-ru="Молодец" data-en="Well done">Молодец</div>
+          <form class="chat-form" id="chatForm">
+            <label class="sr-only" for="chatInput" data-ru="Текст сообщения" data-en="Message text">Текст сообщения</label>
+            <input id="chatInput" maxlength="280" autocomplete="off" data-target-ru="Сделай круто" data-target-en="Make it cool" data-placeholder-ru="Напиши: Сделай круто" data-placeholder-en="Write: Make it cool" placeholder="Напиши: Сделай круто">
+            <button type="submit" aria-label="Отправить"><span>➤</span></button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="piano-section" id="piano">
+      <div class="piano-top"><div><span data-ru="07 · Звуковой код" data-en="07 · Sound code">07 · Звуковой код</span><h2 data-ru="Сыграй мелодию" data-en="Play a melody">Сыграй мелодию</h2></div><p data-ru="Используй клавиши D F G H J K L или нажимай на пианино" data-en="Use the D F G H J K L keys or click the piano">Используй клавиши D F G H J K L или нажимай на пианино</p></div>
+      <div class="piano" aria-label="Интерактивное пианино">
+        <button class="piano-key" type="button" data-key="d" data-note="C5" data-frequency="523.25"><span>До</span><kbd>D</kbd></button>
+        <button class="piano-key" type="button" data-key="f" data-note="D5" data-frequency="587.33"><span>Ре</span><kbd>F</kbd></button>
+        <button class="piano-key" type="button" data-key="g" data-note="E5" data-frequency="659.25"><span>Ми</span><kbd>G</kbd></button>
+        <button class="piano-key" type="button" data-key="h" data-note="F5" data-frequency="698.46"><span>Фа</span><kbd>H</kbd></button>
+        <button class="piano-key" type="button" data-key="j" data-note="G5" data-frequency="783.99"><span>Соль</span><kbd>J</kbd></button>
+        <button class="piano-key" type="button" data-key="k" data-note="A5" data-frequency="880.00"><span>Ля</span><kbd>K</kbd></button>
+        <button class="piano-key" type="button" data-key="l" data-note="B5" data-frequency="987.77"><span>Си</span><kbd>L</kbd></button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer><a class="logo" href="#top"><span>k</span>esha</a><p>© <span id="year"></span> Keshamajestic</p><p>Create By Keshamajestic</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>

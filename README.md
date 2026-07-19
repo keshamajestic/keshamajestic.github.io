@@ -1,1 +1,15 @@
-# keshamajestic.github.io
+# Kesha Majestic
+
+Анимированный одностраничный сайт в нежно-голубой и нежно-жёлтой палитре.
+
+## Запуск
+
+Откройте `index.html` в браузере. Для локального сервера можно выполнить:
+
+```powershell
+python -m http.server 8000 -d .
+```
+
+После этого откройте `http://localhost:8000`.
+
+Перед публикацией замените ссылки на соцсети и адрес `hello@keshamajestic.com` в `index.html`.
